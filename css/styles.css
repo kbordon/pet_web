@@ -10,17 +10,27 @@ body {
   line-height: 1.0;
 }
 
-.light-background {
+.light-theme {
   background-color: yellow;
   color: darkred;
 }
 
-.dark-background {
+.dark-theme {
   background-color: black;
   color: orange;
 }
 
 .highlight {
+  background: yellow;
+  border: 2px solid blue;
+}
+
+.light-theme .highlight {
   background: green;
   border: 10px solid #ff00ff;
+}
+
+.dark-theme .highlight {
+  background: red;
+  border: 10px solid purple;
 }
